@@ -4,6 +4,16 @@
     "namespace": "android_app",
     "package_name": "com.example.pingmfa",
     "sha256_cert_fingerprints":
-    ["44:70:B8:6E:0D:36:2D:77:8A:96:BA:21:CA:7E:0A:77:9D:6D:46:5C:FB:BE:24:8C:2C:66:BE:B8:AE:1D:44:20"]
+    ["44:70:B8:6E:0D:36:2D:77:8A:96:BA:21:CA:7E:0A:77:9D:6D:46:5C:FB:BE:24:8C:2C:66:BE:B8:AE:1D:44:23"]
   }
-}]
+},
+  {
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.pingidentity.samples.app",
+    "sha256_cert_fingerprints":
+    ["27:F1:6F:B6:B1:39:E0:0B:73:D1:E0:1A:95:AE:8E:CB:63:3D:6E:10:4A:D8:B6:08:A4:C5:19:25:54:DD:49:9D"]
+  }
+}
+]
